@@ -1,0 +1,13 @@
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAskeQWr9LrCzKtYJD58nn
+2nzbQJ0yuURBMSIjVBOQb3m4E32EEtySiosthPe2xeSIyH7Uwx443Lu7V832fKD4
+pUIUMXpO1EkPS7LYjl/b+h5BjXI3HRmmJOR18cA7s2skt15cuBlxD+F1zqJ965jD
+U8X7+AEaOhWevrOFNcpWpp6m61JsbFnE4gkt/sXSFcf3zDbmW3JOvay76Abz+Rrs
+dskuAAsRo23oPQoMoRCO76Mbdc9y5O/YLAtE+8Nf8Qq8eeXQtfqqYY/T6xU4laSZ
+lyDSn1KPji5oHnma03Kw64oPWtj+kLrgokVPQqlu0b/UEtLCBlKU9S5BcLOfJwn2
+JQIDAQAB
+-----END PUBLIC KEY-----
+
+
+openssl genrsa -out private_key.pem 2048
+openssl rsa -in private_key.pem -pubout -out public_key.pem
